@@ -21,13 +21,13 @@ const Orders = () => {
     deleteShoppingCart()
   }
 
-  console.log(savedCart);
+  // console.log(savedCart);
   return (
     <div className="shop-container">
       <div className="review-container">
         {cart.map((product) => (
           <ReviewItem
-            key={product.key}
+            key={product.id}
             product={product}
             handleRemoveFromCard={handleRemoveFromCard}
           ></ReviewItem>

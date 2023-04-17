@@ -7,6 +7,14 @@
     padding-left: 100px;
     padding-right: 100px;
 }
+.text-white{
+    color: white;
+    margin-left: 10px;
+}
+
+.btn-logOut{
+    margin-left: 10px;
+}
 
 nav.header a{
     text-decoration: none;
